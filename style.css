@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+hr {
+    border: dotted #3aaaaa 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+
+
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+span.black {
+    color: black;
+}
+
+h2 {
+    color: #3aaaaa;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 > span {
+    color: #922525;
+}
+
+h2 > span {
+    color: rgb(20, 73, 6);
+}
+
+.top-container {
+    position: relative;
+    background-color: rgb(245, 243, 243);
+    padding-top: 100px;
+}
+
+.top-img {
+    top: 40px;
+    right: 100px;
+    position: absolute;
+    
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.middle-img {
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}
+
+.bottom-img {
+    margin-bottom: -42px;
+}
+
+.profile {
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+
+.profile > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Open sans";
+    line-height: 2;
+}
+
+.intro {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.skills {
+    padding-top: 50px;
+}
+
+.skill-gallery {
+    margin-top: -40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.skill-gallery > img {
+    border-radius: 8px;
+    margin-top: 8px;
+    object-fit: contain;
+    padding: 0 4px;
+    width: 100px;
+    height: 200px;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #144b4d;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+  }
+  
